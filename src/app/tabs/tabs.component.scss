@@ -1,0 +1,43 @@
+ul{
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  list-style: none;
+  background-color: rgb(134, 134, 134);
+  height: 60px;
+  width: 100vw;
+
+
+
+  li{
+    box-sizing: border-box;
+
+    margin-right: 50px;
+    border: none;
+    color: rgb(10, 10, 10);
+    width: 30%;
+    height: 40px;
+    margin-left: 40px;
+    padding-left: 139px;
+    padding-top: 10px;
+    background-color: #8afff9;
+     &:active{
+    background-color: #03fde8;
+      }
+
+  }
+  .active{
+
+  font-weight: bolder;
+  font-size: x-large;
+  border: 3px solid white;
+  background-color: aqua;
+  padding-top: 2px;
+  color: rgb(255, 255, 255);
+
+
+  }
+
+}
+
